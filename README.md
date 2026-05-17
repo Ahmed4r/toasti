@@ -1,4 +1,4 @@
-﻿# Toasti 🍞
+# Toasti 🍞
 
 A beautiful, highly customizable, premium iOS-style glassmorphism toast overlay for Flutter.
 
@@ -14,9 +14,9 @@ A beautiful, highly customizable, premium iOS-style glassmorphism toast overlay 
 ## Screenshots 📸
 
 <p align="center">
-  <img src="asset/successT.png" width="50%" />
-  <img src="asset/warningT.png" width="50%" />
-  <img src="asset/errorT.png" width="50%" />
+  <img src="https://raw.githubusercontent.com/Ahmed4r/toasti/main/screenshots/success.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Ahmed4r/toasti/main/screenshots/warning.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Ahmed4r/toasti/main/screenshots/error.png" width="30%" />
 </p>
 
 ## Installation 💻
@@ -25,9 +25,9 @@ Add the package to your "pubspec.yaml":
 
 `yaml
 dependencies:
-toasti_overlay: ^1.0.0
+  toasti_overlay: ^1.0.0
+`
 
-```
 Run "flutter pub get" to install.
 
 ## Usage 🚀
@@ -36,7 +36,7 @@ Import the package where you want to trigger the toast:
 
 `dart
 import 'package:toasti_overlay/toast.dart';
-```
+`
 
 Call the globally available "showToasti" function from any action!
 
@@ -44,18 +44,18 @@ Call the globally available "showToasti" function from any action!
 
 `dart
 ElevatedButton(
-onPressed: () {
-showToasti(
-context,
-title: 'Charger reserved',
-description: 'Opera Passage station reserved successfully.',
-type: ToastType.success,
-duration: const Duration(seconds: 4),
-);
-},
-child: const Text('Show Success Toast'),
+  onPressed: () {
+    showToasti(
+      context,
+      title: 'Charger reserved',
+      description: 'Opera Passage station reserved successfully.',
+      type: ToastType.success,
+      duration: const Duration(seconds: 4),
+    );
+  },
+  child: const Text('Show Success Toast'),
 )
-``n
+`
 
 ### Toast Types
 
@@ -68,24 +68,26 @@ child: const Text('Show Success Toast'),
 ### Customization Example
 
 You can heavily customize the look, feel, and typography of the toast. You can even disable the animations if you prefer a static UI.
-code
+
+`dart
 showToasti(
-context,
-title: 'Custom Warning',
-description: 'This is a custom warning with a custom styled background.',
-type: ToastType.warning,
-duration: const Duration(seconds: 5),
-backgroundColor: Colors.blue.withOpacity(0.5), // Override background glass color
-titleStyle: const TextStyle(
-fontSize: 20,
-color: Colors.yellowAccent,
-),
-descriptionStyle: const TextStyle(
-fontStyle: FontStyle.italic,
-),
-enableAnimation: false, // Turn off active animations
-width: 400, // Custom width constraint
+  context,
+  title: 'Custom Warning',
+  description: 'This is a custom warning with a custom styled background.',
+  type: ToastType.warning,
+  duration: const Duration(seconds: 5),
+  backgroundColor: Colors.blue.withOpacity(0.5), // Override background glass color
+  titleStyle: const TextStyle(
+    fontSize: 20,
+    color: Colors.yellowAccent,
+  ),
+  descriptionStyle: const TextStyle(
+    fontStyle: FontStyle.italic,
+  ),
+  enableAnimation: false, // Turn off active animations
+  width: 400, // Custom width constraint
 );
+`
 
 ## Contributing 🤝
 
