@@ -11,6 +11,15 @@ A beautiful, highly customizable, premium iOS-style glassmorphism toast overlay 
 * **Highly Customizable:** Easily override backgrounds, text styles, constraints, and animations.
 * **Responsive:** Automatically scales constraints down beautifully for smaller screens.
 
+
+## Screenshots 📸
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ahmed4r/toasti/main/screenshots/success.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Ahmed4r/toasti/main/screenshots/warning.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/Ahmed4r/toasti/main/screenshots/error.png" width="30%" />
+</p>
+
 ## Installation 💻
 
 Add the package to your "pubspec.yaml":
@@ -83,3 +92,4 @@ Contributions are welcome! Feel free to open an issue or submit a pull request i
 ## License 📜
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
