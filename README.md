@@ -14,9 +14,9 @@ A beautiful, highly customizable, premium iOS-style glassmorphism toast overlay 
 ## Screenshots 📸
 
 <p align="center">
-  <img src="asset/successT.png" width="30%" />
-  <img src="asset/warningT.png" width="30%" />
-  <img src="asset/errorT.png" width="30%" />
+  <img src="asset/successT.png" width="50%" />
+  <img src="asset/warningT.png" width="50%" />
+  <img src="asset/errorT.png" width="50%" />
 </p>
 
 ## Installation 💻
